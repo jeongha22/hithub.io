@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Boostrap Theme Simply Me</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+             .navbar {
+                padding-top:15px;
+            padding-bottom:15px;
+            border:0;
+            border-radius:0;
+            margin-bottom:0;
+            font-size:12px;
+            letter-spacing:5px;
+            background-color: lightblue;
+            }
+            .navbar-nav li a:hover{
+                color: blue !important;
+            }
+            .bg-1 {
+                background-color: lightcyan;
+                color: rgb(173, 22, 22);
+            }
+                .bg-1{
+                padding-bottom: 0;
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .bg-2{
+                padding-bottom: 100px;
+            }
+            .bg-4{
+                background-color: black;
+                color: white;
+            }
+            .container-fluid{
+                padding-top:50px;
+                padding-bottom: 30px
+            }
+        </style>
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="file:///C:/Users/Gi%20Yo%20Mi/Desktop/visual/stage2.html#">Medifree</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="file:///C:/Users/Gi%20Yo%20Mi/Desktop/visual/login.html">Log in</a></li>
+                  <li><a href="file:///C:/Users/Gi%20Yo%20Mi/Desktop/visual/signup.html">Sign up</a></li>
+                  <li><a href="#">My cart</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container-fluid bg-1 text-center">
+            <h1> Medifree </h1>
+            <img src="pills.jpg" class="img-responsive img-circle" style="display:inline"  width= "300" alt="Medicine">
+            <h3>The NO.1 Medical Platform</h3></div>
+          <br><br>
+          <div class="container-fluid bg-2 text-center">
+          <h2>Sign up for</h2><br>
+          <form action="/action_page.php" method="post" target="file:///C:/Users/Gi%20Yo%20Mi/Desktop/visual/stage2.html#">
+                <h3>Name</h3>
+                <label for="fname"> First name: </label>
+                <input type="text" id="fname" name="fname" value=""> 
+                <label for="lname"> Last name:</label>
+                <input type="text" id= "lname" name="lname" value="">
+            <br><br>
+
+            <h3>Gender</h3><br>
+            <input type="radio" id="male" name="gender" value="male"> 
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+
+            <h3>Birthday</h3>
+            <input type="date" id="birthday" name="birthday">
+            <br><br><br>
+        </form>
+        <h3>Account</h3>
+        <form action="/action_page.php" method="post" target="file:///C:/Users/Gi%20Yo%20Mi/Desktop/visual/stage2.html#">
+            <label for="username":>Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>:
+            <input type="password" id="pwd" name="pwd">
+            <br> <button type="button" onclick="alert('completed')">Submit</button>
+            </form>
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+        <p>boostrap page made by <a href="http://www.google.com">J.H.Lee</a></p>
+
+    </footer>
+    </body>
+</html>
